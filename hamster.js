@@ -16,10 +16,10 @@ eatFood(){
 }
 
 getPrice(){
-  return this.price
+  return this.price;
 }
 
 }
 
-let hamster = new Hamster('Steve', 'Pooh', 15);
+let hamster = new Hamster('Timmy', 'Gus', 15);
 console.log(hamster, hamster.wheelRun(), hamster.eatFood(), hamster.getPrice());
