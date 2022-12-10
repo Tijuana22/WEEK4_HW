@@ -21,5 +21,5 @@ getPrice(){
 
 }
 
-let hamster = new Hamster('Timmy', 'Gus', 15);
+let hamster = new Hamster('', '', 15);
 console.log(hamster, hamster.wheelRun(), hamster.eatFood(), hamster.getPrice());

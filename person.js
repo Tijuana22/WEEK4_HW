@@ -78,13 +78,21 @@ buyHamster(hamster) {
 this.hamsters.push(hamster);
     this.mood+=10
     this.bankAccount-= hamster.getPrice();
+    if (this.bankAccount >= hamster.getPrice()) {
+        this.bankAccount -= hamster.getPrice();
+        return `You have enough money.`
+    } else 
+    return`You don't have enough money.`;
+  }
+  getPrice() {
     
+  }
 
 
 }  
 
  
-}
+
 
 const timmy = new Person("Timmy"); 
 const gus = new Hamster("Gus");
@@ -104,4 +112,6 @@ timmy.exercise(2);
 console.log(gus.owner);
 // // console.log(timmy.buyHamster(gus));
 // console.log(timmy.ageUp(15));
+console.log(timmy.bankAccount);
+
 
