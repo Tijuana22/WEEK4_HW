@@ -4,8 +4,12 @@
 // Rank you comfort with the following material on a scale of 0 - 5: 4
 
 
-// Part II: JavaScript Reps
+
+////////////////////////////////
 // Easy Going
+////////////////////////////////
+
+
 // Write a for loop that will log the numbers 1 through 20.
 // 🔴 The commit message should read:
 // "Easy Going answered"
@@ -15,7 +19,10 @@
 // }
 
 
+////////////////////////////////
 // Get Even
+////////////////////////////////
+
 // Write a for loop that will log only the even numbers in 0 through 200.
 
 // Hint: Think about the increment expression.
@@ -28,8 +35,10 @@
 // }
 
 
-// // Fizz Buzz
-// This is a classic problem that you should get really comfortable solving. If you've solved it before, try to make it more elegant and short.
+
+////////////////////////////////
+// Fizz Buzz
+////////////////////////////////// This is a classic problem that you should get really comfortable solving. If you've solved it before, try to make it more elegant and short.
 
 // Write a javascript application that logs all numbers from 1 - 100.
 // If a number is divisible by 3 log "Fizz" instead of the number.
@@ -48,7 +57,10 @@
 
 
 
+
+////////////////////////////////
 // Wild Wild Life
+//////////////////////////////
 // Use the following arrays to answer the questions below (name,species ,age, hometown): You should be modifying the elements by accessing them. It is up to you which methods to use.
 
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
@@ -81,7 +93,9 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 // console.log(wolfy);
 
 
+////////////////////////////////
 // Yell at the Ninja Turtles
+////////////////////////////////
 // Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
 // Use a for of loop(not a typo - try it out! Try a for ofloop) to call toUpperCase()on each of them and print out the result.
 // As a developer, you'll be a lifelong learner and constantly encountering new things. We'll give you little stretches like this to get you used to looking at documentation and figuring some things out on your own. You've got this!
@@ -95,10 +109,12 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
 
 
+////////////////////////////////
 // Methods, Revisited
+////////////////////////////////
 // Here is a list of favMovies:
 
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 // Console log: the index of Titanic
 // Do the following and console.log the final results (I have included some thought questions, you don't have to write out an answer for those marked as such):
 // Note: if you have to add to the array, feel free to add any movie you'd like
@@ -136,11 +152,13 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 //  console.log(favMovies.indexOf('Fast and Furious'));
 
 
+////////////////////////////////
 // Where is Waldo
-// With the following multi-dimensional array
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
-                    ["Lucinda", "Jacc", "Neff", "Snoop"],
-                    ["Petunia", ["Baked Goods", "Waldo"]]];
+////////////////////////////////
+// // With the following multi-dimensional array
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                     ["Petunia", ["Baked Goods", "Waldo"]]];
 // Remove Eggbert (hint look at the slice/splice method(s))
 // Change "Neff" to "No One"
 // Access and console.log "Waldo"
@@ -157,7 +175,9 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 // console.log(whereIsWaldo);
 
 
-// Excited Kitten
+////////////////////////////////
+//  Excited Kitten
+////////////////////////////////
 // Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
 // For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
 // Hint 1
@@ -170,3 +190,29 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 
 // 🔴 The commit message should read:
 // "Excited Kittens answered"
+
+// const kittyTalk = ("...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away...");
+// let meow = 0;
+// for(let i = 0; i <= 20;  i++){
+
+//     if (i % 2 == 0)
+//  console.log (kittyTalk[Math.floor(Math.random() * (kittyTalk.length -1 +1)) +0]);
+    
+// } 
+// console.log(kittyTalk);
+// console.log("Love me, pet me! HSSSSS!");
+
+
+////////////////////////////////
+//  Find the Median
+///////////////////////////////
+
+
+// Find the median number in the following numsarray, then console.log that number.
+// hint if you check the length of the array / 2, you might get not get a whole number. In which case, look into Math.floor( // something )
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+// Expected output:
+// => 15
+// 🔴 The commit message should read:
+// "Find the Median answered" 
