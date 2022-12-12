@@ -10,9 +10,9 @@
 // 🔴 The commit message should read:
 // "Easy Going answered"
 
-for(let x =0; x < 21; x++){
-    console.log(x);
-}
+// for(let x = 0; x < 21; x++){
+//     console.log(x);
+// }
 
 
 
@@ -23,6 +23,10 @@ for(let x =0; x < 21; x++){
 
 // 🔴 The commit message should read:
 // "Get Even answered"
+
+for(let a = 0; a < 201; a +=2){
+    console.log(a);
+}
 
 
 
