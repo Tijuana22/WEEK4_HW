@@ -92,3 +92,58 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 // for(let ninjaTurtle of ninjaTurtles){
 //     console.log(ninjaTurtle.charAt(0).toUpperCase() + ninjaTurtle.slice(1));
 // }
+
+
+
+// Methods, Revisited
+// Here is a list of favMovies:
+
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// Console log: the index of Titanic
+// Do the following and console.log the final results (I have included some thought questions, you don't have to write out an answer for those marked as such):
+// Note: if you have to add to the array, feel free to add any movie you'd like
+
+// use the .sortmethod Thought question: what did this do to the array? Did it permanently alter it?
+// Use the method pop
+// push"Guardians of the Galaxy"
+// Reverse the array
+// Use the shiftmethod
+// unshift- what does it return?
+// splice"Django Unchained" and add "Avatar" (try finding the index of "Django Unchained", instead of counting it yourself) Thought question: did this permanently alter our array?
+// slicethe last half of the array (challenge yourself and try to programatically determine the middle of the array rather than counting it and hard coding it) - Thought question: did this permanently alter our array?
+// store the value of your slicein a variable, console.log it - Thought question: what is going on here?
+// console.log your final results
+// After running the above tasks, console.log the index of "Fast and Furious" -We removed it from the array, what value do we get when we look for the index of something that is not in the array?
+// Thought question: that we declared the variable favMovieswith const, and yet, we were allowed to change the array. Weird? Should we have used let?
+
+// 🔴 The commit message should read:
+// "Methods Revisited answered"
+
+// favMovies.sort();
+// favMovies.pop();
+// favMovies.push("Guardians of the Galaxy");
+// // favMovies.reverse();
+// favMovies.shift();
+// favMovies.unshift();
+// favMovies.splice(2, 0, "Avatar");
+// favMovies.slice(9);
+
+
+// console.log(favMovies.slice(9));
+// console.log(favMovies[8]);
+//  let value = (9);
+//  console.log(value);
+//  console.log(favMovies.indexOf('Fast and Furious'));
+
+
+// Where is Waldo
+// With the following multi-dimensional array
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                     ["Petunia", ["Baked Goods", "Waldo"]]];
+// Remove Eggbert (hint look at the slice/splice method(s))
+// Change "Neff" to "No One"
+// Access and console.log "Waldo"
+// 🔴 The commit message should read:
+// "Where is Waldo answered"
+// Excited Kitten
