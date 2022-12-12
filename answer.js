@@ -138,12 +138,35 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 
 // Where is Waldo
 // With the following multi-dimensional array
-// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
-//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
-//                     ["Petunia", ["Baked Goods", "Waldo"]]];
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
 // Remove Eggbert (hint look at the slice/splice method(s))
 // Change "Neff" to "No One"
 // Access and console.log "Waldo"
 // 🔴 The commit message should read:
 // "Where is Waldo answered"
+
+//  whereIsWaldo.splice(1,1);
+ 
+// for (let i = 0; i < whereIsWaldo.length; i ++){
+//     if (whereIsWaldo[i].includes("Neff")){
+//         whereIsWaldo[i].splice(2, 1, "No One");
+//     } 
+// }
+// console.log(whereIsWaldo);
+
+
 // Excited Kitten
+// Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
+// For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+// Hint 1
+// Hint 2
+// Hint 3
+// Hint 4
+// Hint 5
+// Hint 6
+// Image of cat with funny quote about dot
+
+// 🔴 The commit message should read:
+// "Excited Kittens answered"
