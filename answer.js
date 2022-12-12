@@ -64,18 +64,31 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 // 🔴 The commit message should read:
 // "Wild Wild Life answered"
 
-plantee.age = 5000;
-for(let a = 1; a <= 5001; a++){
-    plantee.age = a;
-}
-console.log(plantee);
+// plantee.age = 5000;
+// for(let a = 1; a <= 5001; a++){
+//     plantee.age = a;
+// }
+// console.log(plantee);
 
-wolfy[3] = 'Gotham City';
-console.log(wolfy);
+// wolfy[3] = 'Gotham City';
+// console.log(wolfy);
 
-dart.push('Hawkins');
-console.log(dart);
+// dart.push('Hawkins');
+// console.log(dart);
 
-wolfy.shift('Wolfy');
-wolfy.unshift('Gameboy');
-console.log(wolfy);
+// wolfy.shift('Wolfy');
+// wolfy.unshift('Gameboy');
+// console.log(wolfy);
+
+
+// Yell at the Ninja Turtles
+// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+// Use a for of loop(not a typo - try it out! Try a for ofloop) to call toUpperCase()on each of them and print out the result.
+// As a developer, you'll be a lifelong learner and constantly encountering new things. We'll give you little stretches like this to get you used to looking at documentation and figuring some things out on your own. You've got this!
+// 🔴 The commit message should read:
+// "Yell at the Ninja Turtles answered"
+
+// const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michealangelo'];
+// for(let ninjaTurtle of ninjaTurtles){
+//     console.log(ninjaTurtle.charAt(0).toUpperCase() + ninjaTurtle.slice(1));
+// }
