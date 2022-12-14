@@ -63,11 +63,11 @@
 //////////////////////////////
 // Use the following arrays to answer the questions below (name,species ,age, hometown): You should be modifying the elements by accessing them. It is up to you which methods to use.
 
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-const sharky = ["Sharky", "shark", 20, "Left Coast"]
-const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+// const sharky = ["Sharky", "shark", 20, "Left Coast"]
+// const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+// const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
 // Plantee just had her birthday; change Plantee's array to reflect her being a year older.
 // Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
