@@ -15,24 +15,24 @@
 // "created hamster class"
 // Easy Mode Make sure it works so far
 
-// class Hamster {
-//     constructor(name){
-//       this.owner = ''
-//       this.name = name
-//       this.price = 15
-//     }
-//     wheelRun(){
-//       console.log('squeak squeak')
-//     }
-//     eatFood(){
-//       console.log('nibble nibble')
-//     }
-//     getPrice(){
-//       return this.price
-//     }
-//   }
+class Hamster {
+    constructor(name){
+      this.owner = ''
+      this.name = name
+      this.price = 15
+    }
+    wheelRun(){
+      console.log('squeak squeak')
+    }
+    eatFood(){
+      console.log('nibble nibble')
+    }
+    getPrice(){
+      return this.price
+    }
+  }
 
-//   let hamster = new Hamster('', '', 15);
+  let hamster = new Hamster('', '', 15);
 //   console.log(hamster, hamster.wheelRun(), hamster.eatFood(), hamster.getPrice());
 
 
@@ -60,7 +60,7 @@
 // 🔴 Hard Mode Save & Commit your work!
 // Your commit message should read something like:
 // "created person class"
-// Easy Mode Keep Going and save and run code
+// // Easy Mode Keep Going and save and run code
 
 class Person {
     constructor(name){
@@ -114,4 +114,46 @@ class Person {
     
 }
 let person = new Person('', 0, 0, 0, 0, [], 0);
-console.log(person, person.greet());
+// console.log(person, person.greet());
+
+
+
+
+// Create a Story with your Person class
+// Feel free to update or add methods to automate some of these tasks.
+
+// Instantiate a new Person named Timmy
+// Age Timmy five years
+// At this point Timmy's a little bummed. As a precocious child, he feels he's "seen it all" already. Have him eat five times.
+// Now Timmy's a little heavier than he wants to be. Kindergarten's coming up and he wants to look good. Have him exercise five times
+// Age Timmy 9 years
+// Create a hamster named "Gus"
+// Set Gus's owner to the string "Timmy"
+// Have Timmy "buy" Gus
+// Age Timmy 15 years
+// Have Timmy eat twice
+// Have Timmy exercise twice
+// 🔴 Hard Mode Save & Commit your work!
+// Your commit message should read something like:
+// "created timmys story" Easy Mode Keep Going Save and Run Code
+
+const timmy = new Person("Timmy");
+timmy.ageUp(5);
+timmy.eat(5);
+timmy.exercise(5);
+
+timmy.ageUp(9);
+
+const gus = new Hamster("Gus");
+gus.owner = "Timmy";
+timmy.buyHamster(gus);
+
+timmy.ageUp(15)
+timmy.eat(2);
+timmy.exercise(2); 
+
+
+console.log(timmy.eat());
+console.log(timmy.eat());
+console.log(timmy.exercise());
+console.log(timmy.exercise());
