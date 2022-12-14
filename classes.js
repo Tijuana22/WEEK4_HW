@@ -136,28 +136,28 @@
 // // 🔴 Hard Mode Save & Commit your work!
 // // Your commit message should read something like:
 // // "created timmys story" Easy Mode Keep Going Save and Run Code
+/*
+ const timmy = new Person("Timmy");
+ timmy.ageUp(5);
+ timmy.eat(5);
+ timmy.exercise(5);
 
-// const timmy = new Person("Timmy");
-// timmy.ageUp(5);
-// timmy.eat(5);
-// timmy.exercise(5);
+ timmy.ageUp(9);
 
-// timmy.ageUp(9);
+ const gus = new Hamster("Gus");
+ gus.owner = "Timmy";
+ timmy.buyHamster(gus);
 
-// const gus = new Hamster("Gus");
-// gus.owner = "Timmy";
-// timmy.buyHamster(gus);
-
-// timmy.ageUp(15)
-// timmy.eat(2);
-// timmy.exercise(2); 
+ timmy.ageUp(15)
+ timmy.eat(2);
+ timmy.exercise(2); 
 
 
-// console.log(timmy.eat());
-// console.log(timmy.eat());
-// console.log(timmy.exercise());
-// console.log(timmy.exercise());
-
+ console.log(timmy.eat());
+ console.log(timmy.eat());
+ console.log(timmy.exercise());
+ console.log(timmy.exercise());
+*/
 
 
 // Chef Make Dinners
@@ -179,7 +179,7 @@
 // 🔴 Hard Mode Save & Commit your work!
 // Your commit message should read something like:
 // "Dinner is served" Easy Mode Keep Going Save and Run Your Code
-
+/*
 class Dinner {
     constructor (appetizer, entree, dessert){
         this.appetizer = appetizer;
@@ -218,7 +218,7 @@ console.log(dinner3);
 console.log(dinner1.newDinner());
 console.log(dinner2.newDinner());
 console.log(dinner3.newDinner());
-
+*/
 
 
 // I. Variables & Datatypes
@@ -236,12 +236,26 @@ console.log(dinner3.newDinner());
 
 // A. Q + A
 // student should be able to describe these answers in their own words
-// How do we assign a value to a variable? let somevar = 10
-// How do we change the value of a variable? somevar = 12
-// How do we assign an existing variable to a new variable? let newvar = somevar
-// Remind me, what are declare, assign, and define? no wrong answers, they should show an understanding of how to use these words
-// What is pseudocoding and why should you do it? no wrong answers but they should understand that psuedo code is not code its plain english description of what they want to accomplish
-// What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it? no wrong answers but they should defend what they say
+// 1.How do we assign a value to a variable? let somevar = 10
+// 2.How do we change the value of a variable? somevar = 12
+// 3.How do we assign an existing variable to a new variable? let newvar = somevar
+// 4.Remind me, what are declare, assign, and define? no wrong answers, they should show an understanding of how to use these words
+// 5.What is pseudocoding and why should you do it? no wrong answers but they should understand that psuedo code is not code its plain english description of what they want to accomplish
+// 6.What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it? no wrong answers but they should defend what they say
+
+/*
+1. Assigning values to variables is achieved by the = operator (assignment operator); let a = 10
+2. By selecting the value and typing the new value and in addition to typing a value, you can also type an expression. 
+    let x = 6;
+    console.log(x);
+    x = 3;
+    console.log(x);
+3. If the variable was set up with 'const', you will need to change it to 'let' so its value can change later on in the file.
+ or reassign a value to the variable in the same manner as it was first made (variableName = newValue;).
+4. declare: to create a variable, gives details about the properties of a variable, assign: to symbolically associate a specific piece of information with a name, define: to give a variable value `)
+5. Pseudocode is used to create a rough draft or an outline of a program. I should use it to understand a sofware projects requirements and to align code accordingly.
+6. 90% of the time, depends on the project and the skill level
+*/
 
 
 
@@ -251,6 +265,65 @@ console.log(dinner3.newDinner());
 // Create a variable called firstVariable
 // Assign it the value of the string "Hello World"
 // Change the value of this variable to some number
-// Store the value of firstVariablein a new var
+// Store the value of firstVariablein a new variable called secondVariable
+// Change the value of secondVariableto any string.
+// What is the value of firstVariable?
+// Create a variable called yourNameand set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourNameso that it returns a new string with them concatenated.
+// ex: Hello, my name is Jean Valjean
 
+/*
+let firstVariable = "Hello World";
+ firstVariable = 13;
 
+ let secondVariable = 13;
+ secondVariable = "I hope your day is full of great surprises!"
+ console.log(firstVariable);
+
+ const yourName = "Tijuana";
+ console.log('Hello, my name is '  + yourName + '!');
+*/
+
+// C. Booleans
+// Using the provided variable definitions, replace the blanks so that all log statements print truein the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print trueto the console answer below
+
+/*
+const a = 4;
+  const b = 53;
+  const c = 57;
+  const d = 16;
+  const e = 'Kevin';
+
+  console.log(a < b);
+  console.log(c > d);
+  console.log('Name' === 'Name');
+  // FOR THE NEXT TWO, USE ONLY && OR ||
+  console.log(true || false);
+  console.log(false && false && false && false && false || true);
+  console.log(false === false)
+  console.log(e == 'Kevin');
+  console.log(a + b == c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
+  console.log(a + a !== d); // note: the answer is a simple arithmetic equation, not something "weird"
+  console.log(48 == '48');
+*/
+
+// D. The farm
+//   Declare a variable animal. Set it to be either "cow" or something else
+// Write code that will print out "mooooo" if the it is equal to cow
+// Change your code so that if the variable animalis anything other than a cow, it will print "Hey! You're not a cow."
+// Commit
+
+/*
+let animal1 = "cow";
+if (animal1 > "dog") {
+    console.log('mooooo');
+}else {
+    console.log(`Hey! You,re not a cow`);
+}
+
+let animal = "cow";
+if (animal = "cow") {
+    console.log('mooooo');
+}else {
+    console.log(`Hey! You,re not a cow`);
+}
+*/
