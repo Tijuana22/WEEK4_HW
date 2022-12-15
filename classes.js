@@ -756,3 +756,10 @@ console.log(user);
 // Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchasedarray.
 // Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchasedarray.
 // Console.log just the "Merino jodhpurs" from the purchasedarray.
+
+const user = {name:"Jane Doe", age: 46, email: "Janedoe@gmail.com", purchased:[]};
+user.purchased.push('carbohydrates');
+user.purchased.push('peace of mind');
+user.purchased.push('Merino jodhpurs');
+console.log(user)
+console.log(user.purchased[2])
